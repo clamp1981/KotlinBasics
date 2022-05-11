@@ -4,7 +4,7 @@ package study.tutorials.kotlinbasics
 
 fun main(){
     val stringList : List<String> = listOf(
-        "Denis", "Frank","YK", "Michae l" )
+        "Denis", "Frank","YK", "Michael" )
 
     val mixedTypeList : List<Any> = listOf(
         "Denis", 31, 5, "BDay", 71.2, "Weight"  )
