@@ -5,6 +5,8 @@ fun main(){
     val arrayList = ArrayList<String>() //빈 동적 배열 생성
     arrayList.add("One");
     arrayList.add("Two");
+
+
     //One
     //Two
     for( i in arrayList )
@@ -35,5 +37,21 @@ fun main(){
         println( itr.next() )
     }
     println( "Size of arrayList02 = " + arrayList01.size )
+
+    //연습 문제 ( 5개의 숫자를 더한 프로그램 작성 후 평균 계산
+    var arrayIntList = ArrayList<Double>()
+    arrayIntList.add(1.0)
+    arrayIntList.add(2.0)
+    arrayIntList.add(3.0)
+    arrayIntList.add(4.0)
+    arrayIntList.add(5.0)
+
+    var sum = 0.0
+    var average = 0.0
+    for( i in arrayIntList)
+        sum += i
+    average = (sum / arrayIntList.size)
+
+    println( average.toString() )
 
 }
